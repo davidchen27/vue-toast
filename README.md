@@ -4,7 +4,7 @@
 ## 中文文档
 > 插件安装: 
 ```javascript
-import toastRegister from "@/utils/toast"
+import toastRegister from "@/utils/toast" // 这里引入的为toast.js, 因此目录就看你放在哪里了
 Vue.use(toastRegister)
 ```
 > Toast的使用: (在项目组件内任意位置)
